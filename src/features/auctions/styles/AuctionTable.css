@@ -1,0 +1,57 @@
+/* AuctionTable.css */
+.auction-table {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    font-size: 14px;
+    min-width: 600px;
+    border-radius: 12px;
+  }
+  
+  
+  .auction-table th {
+    padding: 18px;
+    font-size: 1.2rem;
+    text-align: left;
+    color: black;         
+    font-weight: 500;
+  }
+  
+  .auction-table td {
+    padding: 18px;
+    font-size: 1rem;
+    text-align: left;
+    color: #0E2954;       
+    font-weight: 500;
+  }
+  
+  .auction-table tbody tr {
+    border-bottom: 1px solid #e2e8f0;
+  }
+  
+  .item-cell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .item-cell img {
+    width: 60px;          
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  
+  .auction-btn{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    border: none;
+    background-color: white;
+  }
+  
+  
+  
