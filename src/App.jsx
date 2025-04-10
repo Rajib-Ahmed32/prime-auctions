@@ -4,6 +4,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import AuctionTable from './features/auctions/components/AuctionTable';
 import FavoritesPanel from './features/auctions/components/FavoritesPanel';
+import Header from './features/header/Header';
+import Hero from './features/hero/Hero';
 
 function App() {
   const [items, setItems] = useState([]);

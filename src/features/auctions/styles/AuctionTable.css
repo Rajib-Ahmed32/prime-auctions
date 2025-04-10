@@ -1,5 +1,6 @@
 /* AuctionTable.css */
 .auction-table {
+    font-family: 'Sora', sans-serif;
     width: 100%;
     background-color: #ffffff;
     border-collapse: collapse;
@@ -11,7 +12,7 @@
   
   .auction-table th {
     padding: 18px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: left;
     color: black;         
     font-weight: 500;

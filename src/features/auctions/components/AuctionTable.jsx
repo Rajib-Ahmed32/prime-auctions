@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/AuctionTable.css';
-import { FaHeart } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa";
 
 const AuctionTable = ({ items, onFavorite, favoritedItems }) => {
   return (
@@ -28,7 +28,7 @@ const AuctionTable = ({ items, onFavorite, favoritedItems }) => {
                 onClick={() => onFavorite(item)}
                 disabled={favoritedItems.includes(item.id)}
               >
-                <FaHeart style={{ color: favoritedItems.includes(item.id) ? 'red' : 'black' }} />
+                <FaRegHeart style={{ color: favoritedItems.includes(item.id) ? 'red' : 'black' }} />
               </button>
             </td>
           </tr>
