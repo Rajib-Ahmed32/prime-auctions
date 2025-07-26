@@ -1,12 +1,31 @@
-# React + Vite
+# 🏆 Prime Auctions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Prime Auctions** is a modern online auction platform where users can explore, bid on, and favorite unique collectible items. Built with React and Vite, it emphasizes a clean UI, real-time feedback, and a smooth user experience.
 
-Currently, two official plugins are available:
+> Live Demo: [https://merry-tiramisu-4be4cb.netlify.app](https://grand-marzipan-d3bbfb.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📦 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Browse real-time auctions with item images, current bids, and time left
+- ❤️ Add items to favorites using the interactive heart icon
+- 🧹 Remove items from your favorites panel
+- 📢 Toast notifications on actions
+- 📱 Fully responsive layout for desktop and mobile
+
+---
+
+## 🧪 Tech Stack
+
+| Tech         | Purpose                       |
+|--------------|-------------------------------|
+| React 19     | Core UI framework              |
+| Vite         | Development build tool         |
+| React Icons  | Iconography                    |
+| React Toastify | Toast notifications         |
+| Poppins, Sora | Fonts                         |
+| CSS Modules  | Styling (per-component basis)  |
+
+---
+
